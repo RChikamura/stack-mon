@@ -59,7 +59,7 @@
 **例(M5Stack Core2の場合)**
 
 ```console
-npm run mod --target=esp32/m5stackk_core2 ./mods/zunda_mod/manifest.json
+npm run mod --target=esp32/m5stack_core2 ./mods/zunda_mod/manifest.json
 ```
 Modの導入に成功すれば、正しい色のずんだもんが表示されるはずです。
 
