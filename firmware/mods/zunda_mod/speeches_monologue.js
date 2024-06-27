@@ -1,0 +1,32 @@
+export const speeches = Object.freeze({
+  sentence1: { text: 'こんにちはなのだ！', emotion: 'HAPPY' },
+  sentence2: { text: '来てくれてありがとうなのだ！', emotion: 'HAPPY' },
+  sentence3: { text: 'ｽﾀｯｸもんなのだ！', emotion: 'HAPPY' },
+  sentence4: { text: '何を探しているのだ？', emotion: 'NEUTRAL' },
+  sentence5: { text: '電子マイコン部は楽しいのだ！', emotion: 'HAPPY' },
+  sentence6: { text: '今日はいい天気なのだ！', emotion: 'HAPPY' },
+  sentence7: { text: 'ずんだもちたべたいのだ！', emotion: 'HAPPY' },
+  sentence8: { text: 'いろんなものがあるのだ！', emotion: 'HAPPY' },
+  sentence9: { text: 'おなかすいたのだ…', emotion: 'SAD' },
+  sentence10: { text: 'おやすみなのだ…', emotion: 'SLEEPY' },
+  sentence11: { text: 'やったなのだ！', emotion: 'HAPPY' },
+  sentence12: { text: 'ちょっとまってなのだ！', emotion: 'NEUTRAL' },
+  sentence13: { text: 'おなかいっぱいなのだ！', emotion: 'HAPPY' },
+  sentence14: { text: 'もう寝たいのだ…', emotion: 'SLEEPY' },
+  sentence15: { text: 'たのしいイベントなのだ！', emotion: 'HAPPY' },
+  sentence16: { text: 'ずんだもちがおいしいのだ！', emotion: 'HAPPY' },
+  sentence17: { text: 'がんばるのだ！', emotion: 'HAPPY' },
+  sentence18: { text: 'どこにいくのだ？', emotion: 'NEUTRAL' },
+  sentence19: { text: 'わあ、すごいのだ！', emotion: 'SURPRISE' },
+  sentence20: { text: 'うれしいのだ！', emotion: 'HAPPY' },
+  sentence21: { text: 'これは楽しいのだ！', emotion: 'HAPPY' },
+  sentence22: { text: 'みんなで楽しむのだ！', emotion: 'HAPPY' },
+  sentence23: { text: 'たくさん見ていってね！', emotion: 'HAPPY' },
+  sentence24: { text: 'ありがとうなのだ！', emotion: 'HAPPY' },
+  sentence25: { text: '電子マイコン部に入るのだ！', emotion: 'HAPPY' },
+  sentence26: { text: 'アットホームな部活なのだ！', emotion: 'HAPPY' },
+})
+
+export const SynthProps = Object.freeze({
+  shift: 1.5,
+})

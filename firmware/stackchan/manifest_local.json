@@ -1,0 +1,23 @@
+{
+    "include": [
+        "./manifest.json",
+		"./manifest_8mb_flash.json"
+    ],
+    "config": {
+		"ssid": "Your_SSID",
+        "password": "Your_PASSWORD",
+        "tts": {
+            "type": "voicevox",
+            "host": "192.168.0.1",
+            "port": 50021
+        },
+        "driver": {
+			"type": "pwm",
+			"pwmPan": 13,
+			"pwmTilt": 14
+        },
+        "renderer": {
+			      "type": "zunf"
+        }
+    }
+}
